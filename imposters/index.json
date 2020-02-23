@@ -1,0 +1,33 @@
+{
+    "predicates": [
+      {
+        "equals": {
+          "method": "GET",
+          "path": "/jetpacks"
+        }
+      },
+      {
+        "matches": {
+        }
+      }
+    ],
+    "responses": [
+      {
+        "is": {
+          "headers": { "Access-Control-Allow-Origin": "*" },
+          "body": [
+            {
+              "id": "1",
+              "name": "Jetpack Wiki",
+              "image": "https://gamepedia.cursecdn.com/fortnite_gamepedia/e/e1/Jetpack_icon.png"
+            },
+            {
+              "id": "2",
+              "name": "Jetpack JackTalior",
+              "image": "http://www.slate.fr/sites/default/files/styles/1060x523/public/backviewjetpack.jpg"
+            }
+          ]
+        }
+      }
+    ]
+  }

@@ -20,7 +20,7 @@ The next step is to set some environment variables in the `.env` file
 
 Now, let's begin the installation :
 * `make install`. This command may take time.  
-* That's it! Your website is running [http:localhost:8080](http:localhost:8080)
+* That's it! Your website is running [http:localhost:3000](http:localhost:8080)
 
 Below are some useful commands :
 * `make stop` Stop the containers
